@@ -1,0 +1,9 @@
+mode: test  # or "test"
+can_log: "/content/drive/MyDrive/projects/can/datasets/Attack_free_dataset.txt"
+can_log_test: "/content/drive/MyDrive/projects/can/datasets/DoS_attack_dataset.txt"
+model_path: "/content/drive/MyDrive/projects/can/models/multi_head_auto_encoder.pt"
+quantile_models_path: "/content/drive/MyDrive/projects/can/quantile_models"
+num_epochs: 50
+batch_size: 256
+threshold_method: quantile
+threshold_value: 0.99
